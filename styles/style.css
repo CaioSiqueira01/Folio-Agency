@@ -1,13 +1,5 @@
 @import url(../styles/responsive.css);
 
-.body__hero{
-    font-family: 'Roboto'; 
-    background: url(../img/background.svg) no-repeat;
-    background-position: 47vw 0vh; 
-}
-
-
-
 .container__header{
     display: flex;
     justify-content: space-between;
@@ -21,22 +13,6 @@
     flex-direction: column;
 }
 
-.hero__title{
-    font-size: 48px;
-    font-weight: 700;
-    font-family: 'Roboto';
-    color: #232340;
-    margin: 0 32px 24px 32px;
-}
-
-.hero__description{
-    font-size: 16px;
-    font-weight: 400;
-    color: #606060;
-    margin: 0 32px 24px 32px;
-    line-height: 28px
-}
-
 .hero__button button{
     width: 160px;
     height: 56px;
@@ -48,11 +24,6 @@
     font-size: 16px;
     font-weight: 400;
     margin: 0 32px;
-}
-
-.hero__img{
-    position: absolute;
-    top: 44%;
 }
 
 /*CSS menu*/
@@ -469,27 +440,7 @@
 
 }
 
-.card__service{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    background: #FFFFFF;
-    border-radius: 32px;
-    width: 311px;
-    height: 190px;
-    margin: auto 32px 24px 32px;
-}
 
-.card__service2{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    background: #5468E7;
-    border-radius: 32px;
-    width: 311px;
-    height: 190px;
-    margin: auto 32px 24px 32px;
-}
 
 .card__service__img{
     margin-left: 48px;
@@ -517,51 +468,6 @@
     display:flex;
 }
 
-.number__achievement{
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    color: #8B8B8B;
-    margin-top: 52px;
-    margin-left: 32px;
-    margin-right:24px;
-}
-
-.text_page_achievement{
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    margin-top: 52px;
-    color: #232340;
-}
-
-.achievement__title{
-    width: 227px;
-    height: 128px;
-    margin: 24px 116px 32px 32px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    color: #232340;
-}
-
-.achievement__page__number{
-    width: 117px;
-    height: 167px;
-    margin-left: 32px;
-    font-weight: 600;
-    font-size: 140px;
-    line-height: 167px;
-    color: #5468E7;
-}
-
-.achievement__paragraph{
-    margin-left:32px;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
-    color: #000000;
-}
 
 /* Css about */
 
@@ -590,15 +496,7 @@
     margin-bottom: 24px;
 }
 
-.about__title{
-    width: 226px;
-    height: 192px;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
-    color: #FFFFFF;
-    margin-left: 32px;
-}
+
 
 .checkbox__about{
     display: flex;
@@ -664,108 +562,6 @@
     padding: 17px 40.5px;
 }
 
-/* Css Footer */
 
-.container__contact_us{
-    width: 311px;
-    height: 548px;
-    background: url(../img/background-contact.svg) no-repeat;
-    background-position: 16vw;
-    background-color: #5468E7;
-    border-radius: 24px;
-    margin: auto 31px 80px 32px;
-}
 
-.contact__image{
-    margin: 49px 99px 6px 139px;
-}
 
-.contact__text{
-    margin-left: 111px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    color: #FFFFFF;
-    font-family: 'Roboto';
-}
-
-.container__text2{
-    text-align: center;
-    width: 236px;
-    font-family: 'Roboto';
-    height: 72px;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
-    color: #FFFFFF;
-    margin: 40px 37px 82px 38px;
-}
-
-.container__text3{
-    width: 260px;
-    height: 80px;
-    margin: auto 25px 40px 26px;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 40px;
-    color: #FFFFFF;
-    text-align: center;
-    font-family: 'Roboto';
-}
-
-.container__link{
-    height: 56px;
-    width: 263px;
-    border-radius: 8px;
-    background: #FFFFFF;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
-    text-align: center;
-    color: #5468E7;
-    border: none;
-    margin: auto 24px;
-}
-
-.footer__logo{
-    margin: auto 119px 32px 120px;
-}
-    
-.footer__text{
-    margin: auto 59px 24px 60px;
-    text-align: center;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: #ADADAD;
-    width: 256px;
-    height: 56px;
-}
-
-.footer__select{
-    height: 48px;
-    width: 311px;
-    border: 1px solid #D8D8D8;
-    border-radius: 8px;
-    margin-left: 32px;
-}
-
-.footer__icons{
-    display: flex;
-    margin:32px 120px;
-}
-
-.footer__icons li{
-    margin-left: 8px;
-}
-
-.footer__cop{
-    height: 16px;
-    width: 103px;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    color: #ADADAD; 
-    margin: auto 135px 34px 143px;
-    text-align: center;
-}
