@@ -227,74 +227,7 @@
 
 /* Css Cta */
 
-.container__cta{
-    width: 311px;
-    height: 929px;
-    background: #5468E7;
-    border-radius: 28.4444px;
-    margin-left: 32.09px;
-}
 
-.background__cta{
-    margin-top: 157px;
-    margin-left: 83px;
-    margin-bottom: 0px;
-    width: 260px;
-    height: 730.18px;
-}
-
-.pag__text__cta{
-    display: flex;
-    color: #FFFFFF;
-    font-weight: 600;
-    font-size: 14px;
-    padding-top: 54px;
-}
-
-.container__cta__title{
-    position: absolute;
-    padding-top: 24px;
-    padding-left: 39.91px;
-    width: 261px;
-    height: 224px;
-}
-
-.cta__title{
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    color: #FFFFFF;
-}
-
-.container__cta__button{
-    display: flex;
-    text-align: center;
-    position: absolute;
-    bottom: 197px;
-    left: 70px;
-}
-
-.cta__button {
-    padding-top: 7px;
-    background: #FFFFFF;
-    color: #5468E7;
-    border-radius: 8px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
-    width: 143px;
-    height: 36px;
-    bottom: 197px;
-    left: 20.35%;
-    right: 22.81%;
-}
-
-.background__bottom{
-    position: absolute;
-    top:540px;
-}
 
 /*Css Job*/
 
@@ -355,13 +288,24 @@
     bottom:22px;
 }
 
+.job__description2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #606060;
+    padding-left: 40px;
+    position: relative;
+    bottom:140px;
+
+}
+
 .job__next{
     padding-left:40px;
     position: relative;
     bottom: 10px;
 }
 
-.job__card2{
+.job__card:hover{
     background: #232340;
     border-radius: 24px;
     width: 311px;
@@ -369,22 +313,29 @@
     margin: auto 32px 16px 32px;
 }
 
-.job__card__title2{
+.job__card:hover .job__card__title{
     font-weight: 700;
     font-size: 24px;
     color: #ffffff;
-    padding-top: 45.51px;
-    padding-left:40px;
+    
 }
 
-.job__description2{
+.job__card:hover .job__description{
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 23px;
+    color: #8B8B8B;
+    padding-left: 40px;
+}
+
+.job__card:hover .job__description2{
     font-weight: 400;
     font-size: 12.8px;
     line-height: 23px;
     color: #8B8B8B;
     padding-left: 40px;
     position: relative;
-    bottom:146px;
+    bottom: 140px;
 }
 
 .job__next2{
